@@ -15,8 +15,7 @@ public class HelloWorldController {
 
     @GetMapping("/world")
     public String getHelloWorld(){
-
-        return "Hello World";
+        return helloWorldService.getHelloWorldService();
     }
 
     @GetMapping("/oregon")
