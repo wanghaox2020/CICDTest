@@ -7,6 +7,9 @@ public class HelloWorldService {
 
     public String getHelloWorldService(){
         return "Hello World Service";
+    }
 
+    public String getHelloOregonService(){
+        return "Hello Oregon Service";
     }
 }
